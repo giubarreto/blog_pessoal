@@ -1,10 +1,10 @@
 # 📝 Blog Pessoal API
 
 
+Este projeto foi desenvolvido como parte do programa de formação da Generation Brasil, com o objetivo de aplicar na prática os conhecimentos adquiridos em desenvolvimento backend, segurança, testes e deploy.
 
+A aplicação simula o backend de uma plataforma de blog, permitindo que usuários se cadastrem, realizem login e publiquem postagens com temas específicos. Ela possui um sistema completo de autenticação, documentação da API com Swagger, testes automatizados e está publicada na nuvem via Render.
 
-
-API desenvolvida com NestJS para gerenciar postagens de um blog. Possui autenticação com JWT, conexões com banco de dados via TypeORM, testes com Jest e documentação via Swagger.
 
 ## ⚙️ Tecnologias
 NestJS (Framework principal)
