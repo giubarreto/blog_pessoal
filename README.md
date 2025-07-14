@@ -1,4 +1,4 @@
-#📝 Blog Pessoal API
+# 📝 Blog Pessoal API
 
 
 
@@ -6,7 +6,7 @@
 
 API desenvolvida com NestJS para gerenciar postagens de um blog. Possui autenticação com JWT, conexões com banco de dados via TypeORM, testes com Jest e documentação via Swagger.
 
-#⚙️ Tecnologias
+# ⚙️ Tecnologias
 NestJS (Framework principal)
 
 TypeORM (Conexão com banco de dados)
@@ -20,7 +20,7 @@ Jest (Testes)
 Render (Deploy da API)
 
 
-#🧩 Entidades (Models)
+# 🧩 Entidades (Models)
 👤 Usuário
 id
 
@@ -34,14 +34,14 @@ foto
 
 Relacionamento: 1 usuário → várias postagens
 
-#🏷️ Tema
+# 🏷️ Tema
 id
 
 descricao
 
 Relacionamento: 1 tema → várias postagens
 
-#📝 Postagem
+# 📝 Postagem
 id
 
 titulo
@@ -53,7 +53,7 @@ data
 Relacionamento: pertence a 1 tema e 1 usuário
 
 
-#🔐 Segurança
+# 🔐 Segurança
 Login com JWT
 
 Rotas protegidas por Guards
